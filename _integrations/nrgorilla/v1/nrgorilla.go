@@ -14,8 +14,8 @@ import (
 	"net/http"
 
 	"github.com/TykTechnologies/mux"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent"
+	"github.com/TykTechnologies/newrelic-go-agent/internal"
 )
 
 func init() { internal.TrackUsage("integration", "framework", "gorilla", "v1") }
