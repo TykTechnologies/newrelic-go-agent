@@ -21,7 +21,7 @@
 // Then change the side-effect import to this package, and open "nrsnowflake" instead:
 //
 //	import (
-//		_ "github.com/newrelic/go-agent/v3/integrations/nrsnowflake"
+//		_ "github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrsnowflake"
 //	)
 //
 //	func main() {
@@ -42,16 +42,16 @@
 //	row := db.QueryRowContext(ctx, "SELECT count(*) from tables")
 //
 // A working example is shown here:
-// https://github.com/newrelic/go-agent/tree/master/v3/integrations/nrsnowflake/example/main.go
+// https://github.com/TykTechnologies/newrelic-go-agent/tree/master/v3/integrations/nrsnowflake/example/main.go
 package nrsnowflake
 
 import (
 	"database/sql"
 	"strconv"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
-	"github.com/newrelic/go-agent/v3/newrelic/sqlparse"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic/sqlparse"
 	"github.com/snowflakedb/gosnowflake"
 )
 

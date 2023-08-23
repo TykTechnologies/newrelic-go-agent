@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/internal"
 )
 
 type customRequest struct {

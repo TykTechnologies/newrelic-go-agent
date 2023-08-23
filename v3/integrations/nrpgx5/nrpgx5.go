@@ -11,8 +11,8 @@
 // ```go
 // import (
 // 	"github.com/jackc/pgx/v5"
-// 	"github.com/newrelic/go-agent/v3/integrations/nrpgx5"
-// 	"github.com/newrelic/go-agent/v3/newrelic"
+// 	"github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrpgx5"
+// 	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 // )
 //
 // func main() {
@@ -32,8 +32,8 @@
 // ```go
 // import (
 // 	"github.com/jackc/pgx/v5/pgxpool"
-// 	"github.com/newrelic/go-agent/v3/integrations/nrpgx5"
-// 	"github.com/newrelic/go-agent/v3/newrelic"
+// 	"github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrpgx5"
+// 	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 // )
 //
 // func main() {
@@ -57,9 +57,9 @@ import (
 	"strconv"
 
 	"github.com/jackc/pgx/v5"
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/newrelic"
-	"github.com/newrelic/go-agent/v3/newrelic/sqlparse"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic/sqlparse"
 )
 
 func init() {

@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/nats-io/nats.go"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/_integrations/nrnats"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent"
+	"github.com/TykTechnologies/newrelic-go-agent/_integrations/nrnats"
 )
 
 var app newrelic.Application

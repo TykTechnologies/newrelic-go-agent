@@ -12,8 +12,8 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/newrelic/go-agent/v3/internal/logger"
-	"github.com/newrelic/go-agent/v3/internal/sysinfo"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal/logger"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal/sysinfo"
 )
 
 const (

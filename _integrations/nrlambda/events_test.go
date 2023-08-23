@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/aws/aws-lambda-go/events"
-	newrelic "github.com/newrelic/go-agent"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent"
 )
 
 func TestGetEventAttributes(t *testing.T) {

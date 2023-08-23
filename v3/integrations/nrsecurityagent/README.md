@@ -1,4 +1,4 @@
-# v3/integrations/nrsecurityagent [![GoDoc](https://godoc.org/github.com/newrelic/go-agent/v3/integrations/nrsecurityagent?status.svg)](https://godoc.org/github.com/newrelic/go-agent/v3/integrations/nrsecurityagent)
+# v3/integrations/nrsecurityagent [![GoDoc](https://godoc.org/github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrsecurityagent?status.svg)](https://godoc.org/github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrsecurityagent)
 
 The New Relic security agent analyzes your application for potentially exploitable vulnerabilities.
 
@@ -13,7 +13,7 @@ The New Relic security agent analyzes your application for potentially exploitab
 
 * Add this integration to your application by importing
 ```
-import "github.com/newrelic/go-agent/v3/integrations/nrsecurityagent"
+import "github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrsecurityagent"
 ```
 * Then, add code to initialize the integration after your call to `newrelic.NewApplication`:
 
@@ -75,4 +75,4 @@ http.ListenAndServe(newrelic.WrapListen(":8000"), nil)
 Generate traffic against your application for the IAST agent to detect vulnerabilities. Once vulnerabilities are detected they will be reported in the vulnerabilities list.
 
 For more information, see
-[godocs](https://godoc.org/github.com/newrelic/go-agent/v3/integrations/nrsecurityagent).
+[godocs](https://godoc.org/github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrsecurityagent).

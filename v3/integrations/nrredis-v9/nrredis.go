@@ -12,8 +12,8 @@ import (
 	"net"
 	"strings"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 	redis "github.com/redis/go-redis/v9"
 )
 

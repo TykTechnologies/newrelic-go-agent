@@ -10,8 +10,8 @@ import (
 	"os"
 	"time"
 
-	_ "github.com/newrelic/go-agent/v3/integrations/nrsqlite3"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	_ "github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrsqlite3"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 )
 
 func main() {

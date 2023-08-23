@@ -7,7 +7,7 @@ This code is leveraged to monitor critical services. Please consider the followi
 * Features that are specific to just your app are unlikely to make it in.
 * Where applicable, a CHANGELOG entry has been included.
 * For new integration packages, follow the [Writing a New Integration
-  Package](https://github.com/newrelic/go-agent/wiki/Writing-a-New-Integration-Package)
+  Package](https://github.com/TykTechnologies/newrelic-go-agent/wiki/Writing-a-New-Integration-Package)
   checklist.
 
 -->

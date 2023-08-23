@@ -160,7 +160,7 @@ jobs:
         # ${{ github.workspace }} used by the GOPATH env var.  pwd when cloning
         # the repo is <something>/go-agent/ whereas ${{ github.workspace }}
         # returns <something/go-agent/go-agent/.
-        path: ./go-agent/src/github.com/newrelic/go-agent
+        path: ./go-agent/src/github.com/TykTechnologies/newrelic-go-agent
 
     - name: Run Tests
       run: bash v3/build-script.sh
@@ -190,7 +190,7 @@ jobs:
         # ${{ github.workspace }} used by the GOPATH env var.  pwd when cloning
         # the repo is <something>/go-agent/ whereas ${{ github.workspace }}
         # returns <something/go-agent/go-agent/.
-        path: ./go-agent/src/github.com/newrelic/go-agent
+        path: ./go-agent/src/github.com/TykTechnologies/newrelic-go-agent
     - uses: uraimo/run-on-arch-action@v2.0.5
       name: Run Tests
       id: runcmd

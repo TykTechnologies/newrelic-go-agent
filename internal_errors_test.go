@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/internal"
 )
 
 type myError struct{}

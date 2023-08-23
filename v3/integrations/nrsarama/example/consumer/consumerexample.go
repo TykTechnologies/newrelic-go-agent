@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/Shopify/sarama"
-	nrsaramaconsumer "github.com/newrelic/go-agent/v3/integrations/nrsarama"
-	"github.com/newrelic/go-agent/v3/newrelic"
+	nrsaramaconsumer "github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrsarama"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 )
 
 var brokers = []string{"localhost:9092"}

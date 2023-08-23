@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/logger"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal/logger"
 )
 
 var (

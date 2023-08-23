@@ -9,7 +9,7 @@ import (
 
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/stan.go"
-	newrelic "github.com/newrelic/go-agent"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent"
 )
 
 func currentTransaction() newrelic.Transaction { return nil }

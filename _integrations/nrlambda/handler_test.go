@@ -13,8 +13,8 @@ import (
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambdacontext"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent"
+	"github.com/TykTechnologies/newrelic-go-agent/internal"
 )
 
 func dataShouldContain(tb testing.TB, data map[string]json.RawMessage, keys ...string) {

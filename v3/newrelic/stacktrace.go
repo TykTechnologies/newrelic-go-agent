@@ -30,7 +30,7 @@ type StacktraceFrame struct {
 func (f StacktraceFrame) formattedName() string {
 	if strings.HasPrefix(f.Name, "go.") {
 		// This indicates an anonymous struct. eg.
-		// "go.(*struct { github.com/newrelic/go-agent.threadWithExtras }).NoticeError"
+		// "go.(*struct { github.com/TykTechnologies/newrelic-go-agent.threadWithExtras }).NoticeError"
 		return f.Name
 	}
 	return path.Base(f.Name)
@@ -39,9 +39,9 @@ func (f StacktraceFrame) formattedName() string {
 func (f StacktraceFrame) isAgent() bool {
 	// Note this is not a contains conditional rather than a prefix
 	// conditional to handle anonymous functions like:
-	// "go.(*struct { github.com/newrelic/go-agent.threadWithExtras }).NoticeError"
-	return strings.Contains(f.Name, "github.com/newrelic/go-agent/v3/internal.") ||
-		strings.Contains(f.Name, "github.com/newrelic/go-agent/v3/newrelic.")
+	// "go.(*struct { github.com/TykTechnologies/newrelic-go-agent.threadWithExtras }).NoticeError"
+	return strings.Contains(f.Name, "github.com/TykTechnologies/newrelic-go-agent/v3/internal.") ||
+		strings.Contains(f.Name, "github.com/TykTechnologies/newrelic-go-agent/v3/newrelic.")
 }
 
 func (f StacktraceFrame) WriteJSON(buf *bytes.Buffer) {

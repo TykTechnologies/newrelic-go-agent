@@ -13,7 +13,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 )
 
 func Example() {

@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/newrelic/go-agent/v3/internal/crossagent"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal/crossagent"
 )
 
 type AttributeTestcase struct {

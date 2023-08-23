@@ -11,9 +11,9 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal/integrationsupport"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 )
 
 func accessTransactionContextContext(c *gin.Context) {

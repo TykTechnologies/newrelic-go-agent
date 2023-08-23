@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal/crossagent"
+	"github.com/TykTechnologies/newrelic-go-agent/internal/crossagent"
 )
 
 func TestSafeURLNil(t *testing.T) {

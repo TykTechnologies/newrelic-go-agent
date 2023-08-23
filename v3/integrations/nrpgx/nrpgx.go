@@ -29,7 +29,7 @@
 //	import (
 //      "database/sql"
 //
-//		_ "github.com/newrelic/go-agent/v3/integrations/nrpgx"
+//		_ "github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrpgx"
 //	)
 //
 //	func main() {
@@ -50,7 +50,7 @@
 //	row := db.QueryRowContext(ctx, "SELECT count(*) FROM pg_catalog.pg_tables")
 //
 // A working example is shown here:
-// https://github.com/newrelic/go-agent/tree/master/v3/integrations/nrpgx/example/sql_compat/main.go
+// https://github.com/TykTechnologies/newrelic-go-agent/tree/master/v3/integrations/nrpgx/example/sql_compat/main.go
 //
 //
 // USING WITH DIRECT PGX CALLS WITHOUT DATABASE/SQL
@@ -69,9 +69,9 @@ import (
 
 	"github.com/jackc/pgx"
 	"github.com/jackc/pgx/v4/stdlib"
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/newrelic"
-	"github.com/newrelic/go-agent/v3/newrelic/sqlparse"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic/sqlparse"
 )
 
 var (

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/newrelic/go-agent/v3/internal/logcontext"
-	"github.com/newrelic/go-agent/v3/internal/sysinfo"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal/logcontext"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal/sysinfo"
 )
 
 func TestWriteJSON(t *testing.T) {

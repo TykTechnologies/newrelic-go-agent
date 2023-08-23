@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/newrelic/go-agent/v3/integrations/nrlambda"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrlambda"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 )
 
 func handler(ctx context.Context) {

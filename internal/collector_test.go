@@ -16,8 +16,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal/crossagent"
-	"github.com/newrelic/go-agent/internal/logger"
+	"github.com/TykTechnologies/newrelic-go-agent/internal/crossagent"
+	"github.com/TykTechnologies/newrelic-go-agent/internal/logger"
 )
 
 func TestResponseCodeError(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"context"
 	"fmt"
 
-	nrredis "github.com/newrelic/go-agent/v3/integrations/nrredis-v9"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	nrredis "github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrredis-v9"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 	redis "github.com/redis/go-redis/v9"
 )
 

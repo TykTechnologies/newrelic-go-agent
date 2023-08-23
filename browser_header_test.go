@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/internal"
 )
 
 func TestNilBrowserTimingHeader(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"os"
 
-	newrelic "github.com/newrelic/go-agent"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent"
 	"github.com/openzipkin/zipkin-go"
 	reporterhttp "github.com/openzipkin/zipkin-go/reporter/http"
 )

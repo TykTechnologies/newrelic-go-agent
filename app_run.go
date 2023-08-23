@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/internal"
 )
 
 // appRun contains information regarding a single connection session with the

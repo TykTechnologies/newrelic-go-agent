@@ -9,10 +9,10 @@ import (
 	"io"
 	"testing"
 
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/_integrations/nrgrpc/testapp"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/integrationsupport"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent"
+	"github.com/TykTechnologies/newrelic-go-agent/_integrations/nrgrpc/testapp"
+	"github.com/TykTechnologies/newrelic-go-agent/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/internal/integrationsupport"
 	"google.golang.org/grpc/metadata"
 )
 

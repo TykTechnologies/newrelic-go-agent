@@ -6,9 +6,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
-	"github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal/integrationsupport"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 
 	"github.com/rs/zerolog"
 )

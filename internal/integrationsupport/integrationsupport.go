@@ -6,8 +6,8 @@
 package integrationsupport
 
 import (
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent"
+	"github.com/TykTechnologies/newrelic-go-agent/internal"
 )
 
 // AddAgentAttribute allows instrumentation packages to add agent attributes.

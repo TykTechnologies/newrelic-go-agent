@@ -11,13 +11,13 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
-	"github.com/newrelic/go-agent/v3/internal"
-	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
-	"github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal/integrationsupport"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 )
 
 var (
-	pkg = "github.com/newrelic/go-agent/v3/integrations/nrgin"
+	pkg = "github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrgin"
 )
 
 func hello(c *gin.Context) {

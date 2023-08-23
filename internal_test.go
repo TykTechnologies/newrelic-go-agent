@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/newrelic/go-agent/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/internal"
 )
 
 var (

@@ -17,7 +17,7 @@ import (
 // on the call stack which are assumed to belong to the agent rather than
 // the instrumented application's code.
 //
-const defaultAgentProjectRoot = "github.com/newrelic/go-agent/"
+const defaultAgentProjectRoot = "github.com/TykTechnologies/newrelic-go-agent/"
 
 //
 // CodeLocation marks the location of a line of source code for later reference.

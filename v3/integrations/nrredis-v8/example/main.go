@@ -13,8 +13,8 @@ import (
 	"time"
 
 	redis "github.com/go-redis/redis/v8"
-	nrredis "github.com/newrelic/go-agent/v3/integrations/nrredis-v8"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	nrredis "github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrredis-v8"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 )
 
 func main() {

@@ -28,7 +28,7 @@
 // call, or globally via the Configure function.
 //
 // Full example:
-// https://github.com/newrelic/go-agent/blob/master/v3/integrations/nrgrpc/example/server/server.go
+// https://github.com/TykTechnologies/newrelic-go-agent/blob/master/v3/integrations/nrgrpc/example/server/server.go
 //
 
 package nrgrpc
@@ -39,7 +39,7 @@ import (
 	"strings"
 
 	protoV1 "github.com/golang/protobuf/proto"
-	"github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

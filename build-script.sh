@@ -44,7 +44,7 @@ for dir in $DIRS; do
   cd "$pwd/$dir"
 
   if [ -f "go.mod" ]; then
-    go mod edit -replace github.com/newrelic/go-agent/v3="$pwd"/v3
+    go mod edit -replace github.com/TykTechnologies/newrelic-go-agent/v3="$pwd"/v3
   fi
 
   # Do tidy if we can

@@ -6,7 +6,7 @@ package cat
 import (
 	"testing"
 
-	"github.com/newrelic/go-agent/internal/crossagent"
+	"github.com/TykTechnologies/newrelic-go-agent/internal/crossagent"
 )
 
 func TestGeneratePathHash(t *testing.T) {

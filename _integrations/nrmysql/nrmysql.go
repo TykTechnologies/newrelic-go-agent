@@ -23,7 +23,7 @@
 // Then change the side-effect import to this package, and open "nrmysql" instead:
 //
 //	import (
-//		_ "github.com/newrelic/go-agent/_integrations/nrmysql"
+//		_ "github.com/TykTechnologies/newrelic-go-agent/_integrations/nrmysql"
 //	)
 //
 //	func main() {
@@ -44,7 +44,7 @@
 //	row := db.QueryRowContext(ctx, "SELECT count(*) from tables")
 //
 // A working example is shown here:
-// https://github.com/newrelic/go-agent/tree/master/_integrations/nrmysql/example/main.go
+// https://github.com/TykTechnologies/newrelic-go-agent/tree/master/_integrations/nrmysql/example/main.go
 package nrmysql
 
 import (
@@ -52,9 +52,9 @@ import (
 	"net"
 
 	"github.com/go-sql-driver/mysql"
-	newrelic "github.com/newrelic/go-agent"
-	"github.com/newrelic/go-agent/internal"
-	"github.com/newrelic/go-agent/internal/sqlparse"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent"
+	"github.com/TykTechnologies/newrelic-go-agent/internal"
+	"github.com/TykTechnologies/newrelic-go-agent/internal/sqlparse"
 )
 
 var (

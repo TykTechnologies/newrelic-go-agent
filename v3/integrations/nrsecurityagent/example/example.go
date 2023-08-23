@@ -12,9 +12,9 @@ import (
 	"os"
 	"sync"
 
-	"github.com/newrelic/go-agent/v3/integrations/nrsecurityagent"
-	_ "github.com/newrelic/go-agent/v3/integrations/nrsqlite3"
-	"github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrsecurityagent"
+	_ "github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrsqlite3"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 )
 
 func index(w http.ResponseWriter, r *http.Request) {

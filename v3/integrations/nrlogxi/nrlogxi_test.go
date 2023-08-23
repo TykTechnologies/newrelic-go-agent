@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	log "github.com/mgutz/logxi/v1"
-	nrlogxi "github.com/newrelic/go-agent/v3/integrations/nrlogxi"
-	newrelic "github.com/newrelic/go-agent/v3/newrelic"
+	nrlogxi "github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrlogxi"
+	newrelic "github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 
-	"github.com/newrelic/go-agent/v3/internal/integrationsupport"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/internal/integrationsupport"
 )
 
 func bufferToStringAndReset(buf *bytes.Buffer) string {

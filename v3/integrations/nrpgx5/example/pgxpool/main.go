@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/newrelic/go-agent/v3/integrations/nrpgx5"
-	"github.com/newrelic/go-agent/v3/newrelic"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/integrations/nrpgx5"
+	"github.com/TykTechnologies/newrelic-go-agent/v3/newrelic"
 )
 
 func main() {
