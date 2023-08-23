@@ -13,7 +13,7 @@ package nrgorilla
 import (
 	"net/http"
 
-	"github.com/gorilla/mux"
+	"github.com/TykTechnologies/mux"
 	newrelic "github.com/newrelic/go-agent"
 	"github.com/newrelic/go-agent/internal"
 )
